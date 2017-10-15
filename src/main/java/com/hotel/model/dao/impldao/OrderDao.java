@@ -35,8 +35,7 @@ public class OrderDao extends AbstractDao<OrderEntity> {
 
     @Override
     public String getInsertQuery() {
-        return "INSERT INTO order(roomNumber, dateOfArriving, dateOfLeaving, firstName, secondName, roomClass, passport, email, " +
-                "isOpen) VALUES(?, ?, ?, ?, ?, ?, ?, ?)";
+        return "INSERT INTO `order`(roomNumber, requestId) VALUES(?, ?)";
     }
 
     @Override
@@ -114,7 +113,12 @@ public class OrderDao extends AbstractDao<OrderEntity> {
 
     @Override
     protected void preparedStatementForCreate(PreparedStatement statement, OrderEntity entity) {
+        try {
+            statement.setInt(1, entity.getRoomNumber());
+            statement.setInt(2, entity.getRequestEntity().getRequestId());
+        } catch (SQLException sqlE) {
 
+        }
     }
 
     @Override

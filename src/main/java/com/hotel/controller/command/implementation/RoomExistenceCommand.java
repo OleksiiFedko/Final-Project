@@ -25,7 +25,6 @@ public class RoomExistenceCommand extends AbstractCommand {
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int requestId = Integer.parseInt(request.getParameter("requestId"));
-        System.out.println(requestId);
         RequestEntity entity;
         List<Integer> roomsList = null;
         AbstractDaoFactory daoFactory = new DaoFactory();
@@ -45,7 +44,7 @@ public class RoomExistenceCommand extends AbstractCommand {
             } catch (SQLException sqlE) {
             }
             request.setAttribute("freeRooms", freeRooms);
-
+            request.setAttribute("requestId", requestId);
             return ViewManager.ROOM_AVAILABLE_PAGE_PASS;
         } else {
             return ViewManager.NO_ROOM_AVAILABLE_PAGE_PASS;

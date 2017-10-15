@@ -15,7 +15,9 @@ public class RequestDao extends AbstractDao<RequestEntity> {
 
     @Override
     public String getUpdateQuery() {
-        return null;
+        return "UPDATE request SET dateOfArriving = ?, dateOfLeaving = ?, firstName = ?, secondName = ?, " +
+                "roomClass = ?, passport = ?, email = ?, isOpen = ?" +
+                "WHERE id = ?";
     }
 
     @Override
@@ -54,7 +56,19 @@ public class RequestDao extends AbstractDao<RequestEntity> {
 
     @Override
     protected void preparedStatementForUpdate(PreparedStatement statement, RequestEntity entity) {
+        try {
+            statement.setDate(1, entity.getDateOfArriving());
+            statement.setDate(2, entity.getDateOfLeaving());
+            statement.setString(3, entity.getFirstName());
+            statement.setString(4, entity.getSecondName());
+            statement.setString(5, entity.getRoomClass());
+            statement.setString(6, entity.getPassport());
+            statement.setString(7, entity.getEmail());
+            statement.setString(8, "false");
+            statement.setInt(9, entity.getRequestId());
+        } catch (SQLException sqlE) {
 
+        }
     }
 
     @Override

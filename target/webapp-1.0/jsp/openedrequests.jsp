@@ -49,7 +49,7 @@
             <form action="/controller" method="post">
                 <tr>
                      <input type="hidden" name="command" value="adminMenu">
-                     <input id="toMenu" type="submit" value="To start page"/>
+                     <input id="toMenu" type="submit" value="To admin start page"/>
                 </tr>
             </form>
         </table>

@@ -22,7 +22,7 @@ public class RoomExistence {
         List<Integer> existingRooms = new ArrayList<>();
         try (Connection connection = DBConnectionPool.getConnection()) {
             AbstractDaoFactory daoFactory = new DaoFactory();
-            OrderDao orderDao = daoFactory.getRequestInfoDao(connection);
+            OrderDao orderDao = daoFactory.getOrderDao(connection);
             RoomsDao roomsDao = daoFactory.getRoomsDao(connection);
             ordersList = orderDao.getAllItems();
 

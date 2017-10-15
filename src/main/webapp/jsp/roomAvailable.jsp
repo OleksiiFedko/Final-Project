@@ -26,8 +26,9 @@
                     <td>  <%= room.getRoomNumber()%></td>
                     <td>  <%= room.getRoomClass().getRoomClass()%></td>
                     <td>  <%= room.getRoomClass().getPriceForDay()%></td>
-                    <input type="hidden" name="" value=""/>
-                    <input type="hidden" name="" value=""/>
+                    <input type="hidden" name="roomNum" value="<%= room.getRoomNumber()%>"/>
+                    <input type="hidden" name="requestId" value="<%= request.getParameter("requestId")%>"/>
+                    <input type="hidden" name="command" value="sendCheck"/>
                     <td><button type="submit">Reserve number and send check</button></td>
                 </form>
             </tr>

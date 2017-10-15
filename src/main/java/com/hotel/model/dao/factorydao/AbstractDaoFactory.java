@@ -8,7 +8,7 @@ public interface AbstractDaoFactory {
 
     CheckDao getCheckDao(Connection con);
 
-    OrderDao getRequestInfoDao(Connection con);
+    OrderDao getOrderDao(Connection con);
 
     RoomClassDao getRoomClassDao(Connection con);
 

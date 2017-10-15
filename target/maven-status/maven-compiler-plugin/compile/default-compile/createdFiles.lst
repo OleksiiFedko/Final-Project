@@ -14,7 +14,9 @@ com\hotel\model\dao\impldao\RequestDao.class
 com\hotel\controller\command\implementation\StartPageCommand.class
 com\hotel\model\dao\factorydao\DaoFactory.class
 com\hotel\model\dao\factorydao\AbstractDaoFactory.class
+com\hotel\domain\logic\MailSender.class
 com\hotel\model\dao\impldao\CheckDao.class
+com\hotel\controller\command\implementation\CheckSendCommand.class
 com\hotel\controller\command\implementation\ToAdminMenuCommand.class
 com\hotel\domain\beans\RoomClassBean.class
 com\hotel\model\dao\impldao\GenericDao.class

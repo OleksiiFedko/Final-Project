@@ -19,4 +19,5 @@ public class ViewManager {
 
     public static final String ROOM_AVAILABLE_PAGE_PASS = "/jsp/roomAvailable.jsp";
 
+    public static final String CHECK_SUCCESSFULLY_SENT = "/jsp/checkSent.jsp";
 }

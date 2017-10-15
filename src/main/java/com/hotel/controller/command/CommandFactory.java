@@ -27,6 +27,8 @@ public class CommandFactory {
                     return new ToAdminMenuCommand();
                 case "checkRoomExistence":
                     return new RoomExistenceCommand();
+                case "sendCheck":
+                    return new CheckSendCommand();
                 default:
                     return null;
             }

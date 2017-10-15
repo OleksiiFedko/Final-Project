@@ -12,7 +12,7 @@ public class DaoFactory implements AbstractDaoFactory {
     }
 
     @Override
-    public OrderDao getRequestInfoDao(Connection connection) {
+    public OrderDao getOrderDao(Connection connection) {
         return new OrderDao(connection);
     }
 
