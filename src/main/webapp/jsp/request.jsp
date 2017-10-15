@@ -1,5 +1,7 @@
-<%@ page language="java" contentType="text/html;charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" language="java"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
+<jsp:useBean id="roomClass" class="com.hotel.domain.beans.RoomClassBean" scope="session"/>
 
 <html>
 <head>
@@ -39,7 +41,6 @@
                 <td>
                     <select name="roomClass">
                         <option disabled>Choose room class</option>
-                        <jsp:useBean id="roomClass" class="com.epamhotel.domain.beans.RoomClassBean"/>
                         <c:forEach items="${roomClass.roomClassList}" var="roomClassList">
                             <option>${roomClassList.roomClass}</option>
                         </c:forEach>
@@ -56,11 +57,11 @@
             </tr>
         </table>
         </br>
-        <input type="submit" value="Send request"/>
+        <button type="submit">Send request</button>
     </form>
     <form action="/controller">
         <input type="hidden" name="command" value="start">
-        <input id="toStart" type="submit" value="To start page"/>
+        <button id="toStart" type="submit">To start page</button>
     </form>
 </body>
 </html>

@@ -14,22 +14,23 @@
 <body bgcolor="#696969">
     Please input you login and password for successful authentication!
     <form action="/controller" method="post">
-        <table>
-            <input type="hidden" name="command" value="login" />
-            <tr>
-                <td>Login: </td>
-                <td><input type="text" name="login"/></td>
-            </tr>
-            <tr>
-                <td>Password: </td>
-                <td><input type="password" name="password"/></td>
-            </tr>
-        </table>
-            <input type="submit" value="Sign in"/>
+        <input type="hidden" name="command" value="login" />
+        <p>
+            <label>Login:&emsp;&ensp;</label>
+            <input type="text" name="login" id="login"/>
+        </p>
+        <p>
+            <label>Password:</label>
+            <input type="password" name="password" id="password"/>
+        </p>
+        <p>
+            <button type="submit">LogIn</button>
+        </p>
     </form>
     <form action="/controller" method="post">
-        <input type="hidden" name="command" value="adminmenu">
-        <input id="toStart" type="submit" value="To start page"/>
+        <input type="hidden" name="command" value="start">
+        <%--<input id="toStart" type="submit" value="To start page"/>--%>
+        <button id="toStart" type="submit">To start page</button>
     </form>
 </body>
 </html>

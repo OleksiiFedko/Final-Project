@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>EPAM HOTEL ADMINISTRATOR MENU</title>
+    <title>HOTEL ADMINISTRATOR MENU</title>
     <style type="text/css">
         #toStart{
             width: 100%;
@@ -13,21 +13,24 @@
 </head>
 <body bgcolor="#228b22">
     <h2 align="center">Administrator menu.</h2>
-    <form action="/controller">
+    <form action="/controller" method="post">
         <input type="hidden" name="command" value="getOpenRequests"/>
-        1. <input type="submit" value="Check open requests"/>
+        <p>
+        1. <button type="submit">Check open requests</button>
+        </p>
     </form>
-    <form action="/controller">
-        <input type="hidden" name="command" value="">
-        2. <input type="submit" value="not supported"/>
-    </form>
-    <form action="/controller">
-        <input type="hidden" name="command" value="">
-        3. <input type="submit" value="not supported"/>
-    </form>
-    <form action="/controller">
+    <%--<form action="/controller" method="post">--%>
+        <%--<input type="hidden" name="command" value="">--%>
+        <%--2. <input type="submit" value="not supported"/>--%>
+    <%--</form>--%>
+    <%--<form action="/controller" method="post">--%>
+        <%--<input type="hidden" name="command" value="">--%>
+        <%--3. <input type="submit" value="not supported"/>--%>
+    <%--</form>--%>
+    <form action="/controller" method="post">
         <input type="hidden" name="command" value="start"/>
-        <input id="toStart" type="submit" value="LogOut"/>
+        <%--<input id="toStart" type="submit" value="LogOut"/>--%>
+        <button id="toStart" type="submit">LogOut</button>
     </form>
 </body>
 </html>
