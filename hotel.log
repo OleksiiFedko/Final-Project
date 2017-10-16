@@ -1,0 +1,22 @@
+[INFO] 16.10.2017 09:11:08 (RequestCommand.java:execute:19)Redirect to page for new request creating. 
+
+[INFO] 16.10.2017 09:11:25 (StartPageCommand.java:execute:19)Redirect to start page (index.jsp) 
+
+[INFO] 16.10.2017 09:11:44 (LoginPageCommand.java:execute:21)Redirect to login page 
+
+[INFO] 16.10.2017 09:11:48 (LoginCommand.java:execute:24)Authentication checking. 
+
+[INFO] 16.10.2017 09:11:48 (LoginCommand.java:checkAccessLevel:36)Administrator login into system. 
+
+[INFO] 16.10.2017 09:11:50 (OpenRequestsCommand.java:execute:19)Get opened request from DB. Show them on page. 
+
+[INFO] 16.10.2017 09:11:58 (OpenRequestsCommand.java:execute:19)Get opened request from DB. Show them on page. 
+
+[INFO] 16.10.2017 09:12:02 (RoomExistenceCommand.java:execute:35)Checking for free rooms for current request. Request ¹5 
+
+[INFO] 16.10.2017 09:12:03 (RoomExistenceCommand.java:execute:53)Found free rooms for request ¹5 
+
+[INFO] 16.10.2017 09:12:13 (ToAdminMenuCommand.java:execute:19)Redirect to admin start page. 
+
+[INFO] 16.10.2017 09:12:15 (StartPageCommand.java:execute:19)Redirect to start page (index.jsp) 
+

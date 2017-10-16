@@ -10,6 +10,7 @@ import com.hotel.model.dao.factorydao.AbstractDaoFactory;
 import com.hotel.model.dao.factorydao.DaoFactory;
 import com.hotel.model.dao.impldao.RequestDao;
 import com.hotel.model.entities.RoomsEntity;
+import org.apache.log4j.Logger;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -22,12 +23,16 @@ import java.util.List;
 
 public class RoomExistenceCommand extends AbstractCommand {
 
+    /** The Constant LOG. */
+    private static final Logger LOG = Logger.getLogger(LoginCommand.class);
+
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int requestId = Integer.parseInt(request.getParameter("requestId"));
         RequestEntity entity;
         List<Integer> roomsList = null;
         AbstractDaoFactory daoFactory = new DaoFactory();
+        LOG.info("Checking for free rooms for current request. Request №" + requestId);
         try(Connection connection = DBConnectionPool.getConnection()) {
             RequestDao dao = daoFactory.getRequestDao(connection);
             entity = dao.getByKey(requestId);
@@ -45,8 +50,10 @@ public class RoomExistenceCommand extends AbstractCommand {
             }
             request.setAttribute("freeRooms", freeRooms);
             request.setAttribute("requestId", requestId);
+            LOG.info("Found free rooms for request №" +requestId);
             return ViewManager.ROOM_AVAILABLE_PAGE_PASS;
         } else {
+            LOG.info("No free rooms for request №" + requestId);
             return ViewManager.NO_ROOM_AVAILABLE_PAGE_PASS;
         }
 

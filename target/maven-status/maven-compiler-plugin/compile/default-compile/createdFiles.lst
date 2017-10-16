@@ -37,4 +37,5 @@ com\hotel\model\dao\impldao\RootsDao.class
 com\hotel\model\dao\impldao\RoomClassDao.class
 com\hotel\model\dao\impldao\OrderDao.class
 com\hotel\domain\exceptions\TechnicalException.class
+com\hotel\controller\command\implementation\NoFreeRoomCommand.class
 com\hotel\model\entities\RequestEntity.class

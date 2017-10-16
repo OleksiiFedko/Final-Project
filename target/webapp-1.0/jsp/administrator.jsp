@@ -11,7 +11,7 @@
         }
     </style>
 </head>
-<body bgcolor="#228b22">
+<body bgcolor="#90ee90">
     <h2 align="center">Administrator menu.</h2>
     <form action="/controller" method="post">
         <input type="hidden" name="command" value="getOpenRequests"/>
@@ -19,14 +19,6 @@
         1. <button type="submit">Check open requests</button>
         </p>
     </form>
-    <%--<form action="/controller" method="post">--%>
-        <%--<input type="hidden" name="command" value="">--%>
-        <%--2. <input type="submit" value="not supported"/>--%>
-    <%--</form>--%>
-    <%--<form action="/controller" method="post">--%>
-        <%--<input type="hidden" name="command" value="">--%>
-        <%--3. <input type="submit" value="not supported"/>--%>
-    <%--</form>--%>
     <form action="/controller" method="post">
         <input type="hidden" name="command" value="start"/>
         <%--<input id="toStart" type="submit" value="LogOut"/>--%>

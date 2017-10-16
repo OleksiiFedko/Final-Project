@@ -29,6 +29,8 @@ public class CommandFactory {
                     return new RoomExistenceCommand();
                 case "sendCheck":
                     return new CheckSendCommand();
+                case "noFreeRoom":
+                    return new NoFreeRoomCommand();
                 default:
                     return null;
             }

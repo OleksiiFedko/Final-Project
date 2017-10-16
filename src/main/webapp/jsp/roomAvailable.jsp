@@ -8,7 +8,7 @@
 <head>
     <title>Room available</title>
 </head>
-<body bgcolor="#228b22">
+<body bgcolor="##90ee90">
     <h3>Free rooms</h3>
     <table>
         <thead>
@@ -29,6 +29,7 @@
                     <input type="hidden" name="roomNum" value="<%= room.getRoomNumber()%>"/>
                     <input type="hidden" name="requestId" value="<%= request.getParameter("requestId")%>"/>
                     <input type="hidden" name="command" value="sendCheck"/>
+                    <input type="hidden" name="isSuccess" value="true"/>
                     <td><button type="submit">Reserve number and send check</button></td>
                 </form>
             </tr>

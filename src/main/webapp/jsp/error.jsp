@@ -11,7 +11,7 @@
         }
     </style>
 </head>
-<body bgcolor="red">
+<body bgcolor="#cd5c5c">
     <h1>ERROR HAPPENED</h1>
     <form action="/controller">
         <input type="hidden" name="command" value="toLogin">
