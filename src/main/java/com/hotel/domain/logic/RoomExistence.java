@@ -30,7 +30,7 @@ public class RoomExistence {
             List<Integer> orderRooms = orderDao.getRoomsByClass(entity.getRoomClass());
             for(int count = 0; count < orderRooms.size(); count++) {
                 if(roomsByClass.contains(orderRooms.get(count))) {
-                roomsByClass.remove(orderRooms.get(count));
+                    roomsByClass.remove(orderRooms.get(count));
                 }
             }
             existingRooms = roomsByClass;

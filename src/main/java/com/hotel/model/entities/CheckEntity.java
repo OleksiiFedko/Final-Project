@@ -5,27 +5,20 @@ import java.io.Serializable;
 public class CheckEntity implements Serializable{
     private int checkId;
     private int price;
-    private OrderEntity requestInfo;
-    private int requestInfoId ;
+    private int requestId;
 
     public CheckEntity() {
     }
 
-    public CheckEntity(int checkId, int price, OrderEntity requestInfo) {
-        this.checkId = checkId;
+    public CheckEntity(int price, int requestId) {
         this.price = price;
-        this.requestInfo = requestInfo;
+        this.requestId = requestId;
     }
 
-    public CheckEntity(int checkId, int price, int requestInfoId) {
+    public CheckEntity(int checkId, int price, int requestId) {
         this.checkId = checkId;
         this.price = price;
-        this.requestInfo = requestInfo;
-    }
-
-    public CheckEntity(int price, int requestInfoId) {
-        this.price = price;
-        this.requestInfoId = requestInfoId;
+        this.requestId = requestId;
     }
 
     public int getCheckId() {
@@ -44,19 +37,19 @@ public class CheckEntity implements Serializable{
         this.price = price;
     }
 
-    public int getRequestInfoId() {
-        return requestInfoId;
+    public int getRequestId() {
+        return requestId;
     }
 
-    public void setRequestInfoId(int requestInfoId) {
-        this.requestInfoId = requestInfoId;
+    public void setRequestId(int requestId) {
+        this.requestId = requestId;
     }
 
     @Override
     public String toString() {
         return "CheckEntity: " + checkId +
                 ", total price: " + price +
-                ", requestInfo: " + requestInfoId +
+                ", requestId: " + requestId +
                 '}';
     }
 }

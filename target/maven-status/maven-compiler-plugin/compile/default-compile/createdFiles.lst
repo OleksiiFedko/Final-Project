@@ -29,6 +29,7 @@ com\hotel\model\entities\OrderEntity.class
 com\hotel\model\dao\impldao\RoomsDao.class
 com\hotel\controller\command\AbstractCommand.class
 com\hotel\model\entities\RootsEntity.class
+com\hotel\domain\logic\MailSender$1.class
 com\hotel\controller\command\CommandFactory.class
 com\hotel\model\dao\impldao\AbstractDao.class
 com\hotel\controller\command\implementation\SendRequestCommand.class

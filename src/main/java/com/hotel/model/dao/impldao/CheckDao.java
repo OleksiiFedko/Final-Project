@@ -29,7 +29,7 @@ public class CheckDao extends AbstractDao<CheckEntity> {
 
     @Override
     public String getInsertQuery() {
-        return "INSERT  INTO check (price, requestInfoId) VALUES (?, ?)";
+        return "INSERT  INTO `check` (price, requestId) VALUES (?, ?)";
     }
 
     @Override
@@ -38,9 +38,9 @@ public class CheckDao extends AbstractDao<CheckEntity> {
         try {
             int idCheck = rs.getInt(1);
             int price = rs.getInt(2);
-            int requestInfoId = rs.getInt(3);
+            int orderId = rs.getInt(3);
 
-            checkList.add(new CheckEntity(idCheck, price, requestInfoId));
+            checkList.add(new CheckEntity(idCheck, price, orderId));
         } catch (SQLException sqlE) {
 
         }
@@ -51,7 +51,7 @@ public class CheckDao extends AbstractDao<CheckEntity> {
     protected void preparedStatementForUpdate(PreparedStatement statement, CheckEntity entity) {
         try {
             statement.setInt(1, entity.getPrice());
-            statement.setInt(2, entity.getRequestInfoId());
+            statement.setInt(2, entity.getRequestId());
             statement.setInt(3, entity.getCheckId());
         } catch (SQLException sqlE) {
 
@@ -71,7 +71,7 @@ public class CheckDao extends AbstractDao<CheckEntity> {
     protected void preparedStatementForCreate(PreparedStatement statement, CheckEntity entity) {
         try {
             statement.setInt(1, entity.getPrice());
-            statement.setInt(2, entity.getRequestInfoId());
+            statement.setInt(2, entity.getRequestId());
         } catch (SQLException sqlE) {
 
         }
