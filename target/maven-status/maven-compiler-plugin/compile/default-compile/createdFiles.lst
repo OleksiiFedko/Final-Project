@@ -1,9 +1,11 @@
 com\hotel\domain\beans\OpenRequestBean.class
 com\hotel\model\entities\RoomClassEntity.class
 com\hotel\controller\utils\ViewManager.class
+com\hotel\model\tags\RoomsClassTag.class
 com\hotel\controller\command\implementation\LoginCommand.class
 com\hotel\controller\command\implementation\LoginPageCommand.class
 com\hotel\controller\command\implementation\RoomExistenceCommand.class
+com\hotel\domain\logic\RequestValidation.class
 com\hotel\controller\command\implementation\OpenRequestsCommand.class
 com\hotel\domain\logic\RoomExistence.class
 com\hotel\model\dao\connection\DBConnectionPool.class
@@ -34,6 +36,7 @@ com\hotel\controller\command\implementation\LogoutCommand.class
 com\hotel\controller\command\CommandFactory.class
 com\hotel\model\dao\impldao\AbstractDao.class
 com\hotel\controller\command\implementation\SendRequestCommand.class
+com\hotel\model\tags\OpenRequestsTag.class
 com\hotel\model\dao\impldao\RootsDao.class
 com\hotel\model\dao\impldao\RoomClassDao.class
 com\hotel\model\dao\impldao\OrderDao.class

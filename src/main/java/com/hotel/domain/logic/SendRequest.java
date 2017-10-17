@@ -7,6 +7,7 @@ import com.hotel.model.dao.factorydao.DaoFactory;
 import com.hotel.model.dao.impldao.RequestDao;
 
 import java.sql.Connection;
+import java.sql.Date;
 import java.sql.SQLException;
 
 public class SendRequest {
@@ -26,4 +27,5 @@ public class SendRequest {
         }
         return true;
     }
+
 }

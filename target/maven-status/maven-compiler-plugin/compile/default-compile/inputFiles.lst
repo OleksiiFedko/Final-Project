@@ -1,5 +1,6 @@
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\dao\impldao\RequestDao.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\controller\command\implementation\RequestCommand.java
+C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\tags\OpenRequestsTag.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\controller\command\AbstractCommand.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\domain\logic\Login.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\controller\utils\ViewManager.java
@@ -7,6 +8,7 @@ C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\domain\bean
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\entities\RequestEntity.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\entities\CheckEntity.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\dao\impldao\RootsDao.java
+C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\tags\RoomsClassTag.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\domain\logic\MailSender.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\controller\command\implementation\NoFreeRoomCommand.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\controller\command\implementation\LoginPageCommand.java
@@ -21,6 +23,7 @@ C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\controller\
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\domain\logic\SendRequest.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\dao\factorydao\DaoFactory.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\entities\RoomClassEntity.java
+C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\domain\logic\RequestValidation.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\dao\impldao\RoomsDao.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\dao\impldao\GenericDao.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\domain\exceptions\TechnicalException.java

@@ -198,3 +198,199 @@
 
 [INFO] 17.10.2017 09:32:44 (RoomExistenceCommand.java:execute:62)Found free rooms for request ¹5 
 
+[INFO] 17.10.2017 10:58:12 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 10:58:12 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 17.10.2017 10:58:45 (SendRequestCommand.java:execute:35)Creating new request. 
+
+[INFO] 17.10.2017 10:58:45 (SendRequestCommand.java:execute:52)Request was successfully created and sent. 
+
+[INFO] 17.10.2017 10:58:48 (StartPageCommand.java:execute:27)Redirect to start page (index.jsp) 
+
+[INFO] 17.10.2017 10:58:49 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 17.10.2017 11:01:45 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 11:01:45 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 17.10.2017 11:02:07 (SendRequestCommand.java:execute:35)Creating new request. 
+
+[INFO] 17.10.2017 11:02:07 (SendRequestCommand.java:execute:54)Request was successfully created and sent. 
+
+[INFO] 17.10.2017 11:02:08 (StartPageCommand.java:execute:27)Redirect to start page (index.jsp) 
+
+[INFO] 17.10.2017 11:03:04 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 11:03:04 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 17.10.2017 11:03:05 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 17.10.2017 11:03:34 (SendRequestCommand.java:execute:35)Creating new request. 
+
+[INFO] 17.10.2017 11:03:34 (SendRequestCommand.java:execute:54)Request was successfully created and sent. 
+
+[INFO] 17.10.2017 11:03:35 (StartPageCommand.java:execute:27)Redirect to start page (index.jsp) 
+
+[INFO] 17.10.2017 11:08:06 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 11:08:06 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 17.10.2017 11:08:07 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 17.10.2017 11:08:26 (SendRequestCommand.java:execute:35)Creating new request. 
+
+[INFO] 17.10.2017 11:08:53 (SendRequestCommand.java:execute:35)Creating new request. 
+
+[INFO] 17.10.2017 11:10:29 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 11:10:29 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 17.10.2017 11:10:38 (SendRequestCommand.java:execute:35)Creating new request. 
+
+[INFO] 17.10.2017 11:10:38 (SendRequestCommand.java:execute:57)Request was successfully created and sent. 
+
+[INFO] 17.10.2017 11:10:41 (StartPageCommand.java:execute:27)Redirect to start page (index.jsp) 
+
+[INFO] 17.10.2017 11:13:28 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 11:13:28 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 17.10.2017 11:17:59 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 11:17:59 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 17.10.2017 11:19:45 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 11:19:45 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 17.10.2017 11:19:53 (SendRequestCommand.java:execute:35)Creating new request. 
+
+[INFO] 17.10.2017 11:20:08 (StartPageCommand.java:execute:27)Redirect to start page (index.jsp) 
+
+[INFO] 17.10.2017 11:20:10 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 17.10.2017 11:21:26 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 11:21:26 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 17.10.2017 11:21:36 (SendRequestCommand.java:execute:35)Creating new request. 
+
+[INFO] 17.10.2017 11:21:41 (SendRequestCommand.java:execute:35)Creating new request. 
+
+[INFO] 17.10.2017 11:24:00 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 11:24:00 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 17.10.2017 11:24:07 (SendRequestCommand.java:execute:35)Creating new request. 
+
+[INFO] 17.10.2017 11:25:38 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 11:25:38 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 17.10.2017 11:25:56 (SendRequestCommand.java:execute:35)Creating new request. 
+
+[INFO] 17.10.2017 11:26:02 (SendRequestCommand.java:execute:35)Creating new request. 
+
+[INFO] 17.10.2017 11:26:05 (SendRequestCommand.java:execute:35)Creating new request. 
+
+[INFO] 17.10.2017 11:31:16 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 11:31:16 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 17.10.2017 11:31:25 (SendRequestCommand.java:execute:35)Creating new request. 
+
+[INFO] 17.10.2017 11:31:29 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[INFO] 17.10.2017 11:32:17 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 11:32:17 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 17.10.2017 11:32:22 (SendRequestCommand.java:execute:35)Creating new request. 
+
+[INFO] 17.10.2017 11:32:26 (SendRequestCommand.java:execute:35)Creating new request. 
+
+[INFO] 17.10.2017 11:34:02 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 11:34:02 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 17.10.2017 11:34:04 (SendRequestCommand.java:execute:35)Creating new request. 
+
+[INFO] 17.10.2017 11:35:13 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 11:35:13 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 17.10.2017 11:35:15 (SendRequestCommand.java:execute:35)Creating new request. 
+
+[INFO] 17.10.2017 11:35:27 (SendRequestCommand.java:execute:35)Creating new request. 
+
+[INFO] 17.10.2017 11:41:37 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 11:41:37 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 17.10.2017 11:41:38 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 17.10.2017 11:41:39 (SendRequestCommand.java:execute:34)Creating new request. 
+
+[ERROR] 17.10.2017 11:41:39 (SendRequestCommand.java:execute:39)Invalid date in request 
+
+[INFO] 17.10.2017 11:43:43 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[INFO] 17.10.2017 11:43:49 (StartPageCommand.java:execute:27)Redirect to start page (index.jsp) 
+
+[INFO] 17.10.2017 11:43:50 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 17.10.2017 11:43:58 (SendRequestCommand.java:execute:34)Creating new request. 
+
+[INFO] 17.10.2017 11:43:58 (SendRequestCommand.java:execute:67)Request was successfully created and sent. 
+
+[INFO] 17.10.2017 11:43:59 (StartPageCommand.java:execute:27)Redirect to start page (index.jsp) 
+
+[INFO] 17.10.2017 11:50:09 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 11:50:09 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 17.10.2017 11:50:17 (SendRequestCommand.java:execute:34)Creating new request. 
+
+[ERROR] 17.10.2017 11:50:17 (SendRequestCommand.java:execute:64)One ore more empty field in request. 
+
+[INFO] 18.10.2017 12:34:07 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 18.10.2017 12:34:07 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[INFO] 18.10.2017 12:34:11 (LoginCommand.java:execute:32)Authentication checking. 
+
+[INFO] 18.10.2017 12:34:11 (LoginCommand.java:checkAccessLevel:52)Administrator login into system. 
+
+[INFO] 18.10.2017 12:34:12 (OpenRequestsCommand.java:execute:27)Get opened request from DB. Show them on page. 
+
+[INFO] 18.10.2017 12:36:32 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 18.10.2017 12:36:32 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[INFO] 18.10.2017 12:36:35 (LoginCommand.java:execute:32)Authentication checking. 
+
+[INFO] 18.10.2017 12:36:35 (LoginCommand.java:checkAccessLevel:52)Administrator login into system. 
+
+[INFO] 18.10.2017 12:36:37 (OpenRequestsCommand.java:execute:27)Get opened request from DB. Show them on page. 
+
+[INFO] 18.10.2017 01:00:29 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 18.10.2017 01:00:29 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 18.10.2017 01:02:20 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 18.10.2017 01:02:20 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 18.10.2017 01:03:55 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 18.10.2017 01:03:55 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 18.10.2017 01:07:13 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 18.10.2017 01:07:13 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 18.10.2017 01:09:14 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 18.10.2017 01:09:14 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
