@@ -12,5 +12,14 @@
         <res-auth>Container</res-auth>
     </resource-ref>
 
+    <filter>
+        <filter-name>AdminSecureFilter</filter-name>
+        <filter-class>com.hotel.controller.filters.AdminSecureFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AdminSecureFilter</filter-name>
+        <url-pattern>/jsp/admin/*</url-pattern>
+    </filter-mapping>
+
 </web-app>
 

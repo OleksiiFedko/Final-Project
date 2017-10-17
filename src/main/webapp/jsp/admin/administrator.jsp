@@ -1,13 +1,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
+
 <html>
 <head>
     <title>HOTEL ADMINISTRATOR MENU</title>
     <style type="text/css">
         #toStart{
-            width: 100%;
+            width: 10%;
             position: fixed;
             bottom: 0;
-            left: 0;
+            right: 0;
         }
     </style>
 </head>
@@ -19,9 +21,8 @@
         1. <button type="submit">Check open requests</button>
         </p>
     </form>
-    <form action="/controller" method="post">
-        <input type="hidden" name="command" value="start"/>
-        <%--<input id="toStart" type="submit" value="LogOut"/>--%>
+    <form action="/controller" method="get">
+        <input type="hidden" name="command" value="logout"/>
         <button id="toStart" type="submit">LogOut</button>
     </form>
 </body>

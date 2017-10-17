@@ -26,9 +26,18 @@ import java.sql.SQLException;
 import java.util.concurrent.TimeUnit;
 
 public class CheckSendCommand extends AbstractCommand {
+
     /** The Constant LOG. */
     private static final Logger LOG = Logger.getLogger(LoginCommand.class);
 
+    /**
+     * Generating message with check and send it to client
+     * @param request
+     * @param response
+     * @return
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int roomNumber = Integer.parseInt(request.getParameter("roomNum"));
@@ -56,7 +65,7 @@ public class CheckSendCommand extends AbstractCommand {
             int totalPrice = daysOfStaying * roomsEntity.getRoomClass().getPriceForDay();
             checkDao.insertItem(new CheckEntity(totalPrice, requestId));
             MailSender mailSender = new MailSender();
-            mailSender.sendSSL(requestEntity, isFreeRoom);
+            mailSender.sendSSL(requestEntity, totalPrice, roomNumber ,isFreeRoom);
         } catch (SQLException sqlE) {
             LOG.error("Something goes wrong.");
         }

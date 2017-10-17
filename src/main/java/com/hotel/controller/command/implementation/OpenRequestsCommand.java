@@ -14,6 +14,14 @@ public class OpenRequestsCommand extends AbstractCommand {
     /** The Constant LOG. */
     private static final Logger LOG = Logger.getLogger(LoginCommand.class);
 
+    /**
+     * Redirect administrator to page with request, requests status = open
+     * @param request
+     * @param response
+     * @return
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         LOG.info("Get opened request from DB. Show them on page.");

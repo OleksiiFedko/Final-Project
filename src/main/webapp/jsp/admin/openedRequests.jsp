@@ -8,12 +8,19 @@
     <title>Opened Requests</title>
     <style type="text/css">
         #toMenu{
-            width: 50%;
+            width: 20%;
+            bottom: 0;
             left: 0;
+        }
+        #toStart{
+            width: 10%;
+            /*position: fixed;*/
+            bottom: 0;
+            right: 0;
         }
     </style>
 </head>
-<body bgcolor="##90ee90">
+<body bgcolor="#90ee90">
         <table>
             <thead>
             <tr>
@@ -46,12 +53,14 @@
                 </tr>
                 </c:forEach>
             </tbody>
-            <form action="/controller" method="post">
-                <tr>
-                     <input type="hidden" name="command" value="adminMenu">
-                     <input id="toMenu" type="submit" value="To admin start page"/>
-                </tr>
-            </form>
-        </table>
+        </table> <br/>
+        <form action="/controller" method="post">
+                <input type="hidden" name="command" value="adminMenu">
+                <input id="toMenu" type="submit" value="To admin start page"/>
+        </form>
+        <form action="/controller" method="get">
+            <input type="hidden" name="command" value="logout"/>
+            <button id="toStart" type="submit">LogOut</button>
+        </form>
 </body>
 </html>

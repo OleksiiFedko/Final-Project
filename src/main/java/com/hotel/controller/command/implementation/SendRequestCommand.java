@@ -19,6 +19,14 @@ public class SendRequestCommand extends AbstractCommand {
     /** The Constant LOG. */
     private static final Logger LOG = Logger.getLogger(LoginCommand.class);
 
+    /**
+     * Creating new request and add send it to DB
+     * @param request
+     * @param response
+     * @return
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");

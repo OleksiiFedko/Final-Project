@@ -6,6 +6,11 @@ public class CommandFactory {
     public CommandFactory() {
     }
 
+    /**
+     * getCommand for servlet
+     * @param command
+     * @return
+     */
     public static AbstractCommand getCommand(String command) {
         if(command != null) {
             switch (command) {
@@ -31,6 +36,8 @@ public class CommandFactory {
                     return new CheckSendCommand();
                 case "noFreeRoom":
                     return new NoFreeRoomCommand();
+                case "logout":
+                    return new LogoutCommand();
                 default:
                     return null;
             }

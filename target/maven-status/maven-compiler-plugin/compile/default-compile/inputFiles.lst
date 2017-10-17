@@ -10,9 +10,10 @@ C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\dao\i
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\domain\logic\MailSender.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\controller\command\implementation\NoFreeRoomCommand.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\controller\command\implementation\LoginPageCommand.java
-C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\controller\command\implementation\NoCommand.java
+C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\controller\filters\AdminSecureFilter.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\dao\factorydao\AbstractDaoFactory.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\controller\command\implementation\ErrorCommand.java
+C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\controller\command\implementation\LogoutCommand.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\controller\command\implementation\ToAdminMenuCommand.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\entities\RootsEntity.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\dao\impldao\RoomClassDao.java

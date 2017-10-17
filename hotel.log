@@ -20,3 +20,181 @@
 
 [INFO] 16.10.2017 09:12:15 (StartPageCommand.java:execute:19)Redirect to start page (index.jsp) 
 
+[INFO] 16.10.2017 09:33:29 (LoginPageCommand.java:execute:21)Redirect to login page 
+
+[INFO] 16.10.2017 09:33:33 (LoginCommand.java:execute:24)Authentication checking. 
+
+[INFO] 16.10.2017 09:33:33 (LoginCommand.java:checkAccessLevel:36)Administrator login into system. 
+
+[INFO] 16.10.2017 09:33:36 (OpenRequestsCommand.java:execute:19)Get opened request from DB. Show them on page. 
+
+[INFO] 16.10.2017 09:33:57 (RoomExistenceCommand.java:execute:35)Checking for free rooms for current request. Request ¹7 
+
+[INFO] 16.10.2017 09:33:58 (RoomExistenceCommand.java:execute:53)Found free rooms for request ¹7 
+
+[INFO] 16.10.2017 09:34:05 (CheckSendCommand.java:execute:42)Check calculation 
+
+[INFO] 16.10.2017 09:34:13 (ToAdminMenuCommand.java:execute:19)Redirect to admin start page. 
+
+[INFO] 16.10.2017 09:36:48 (OpenRequestsCommand.java:execute:19)Get opened request from DB. Show them on page. 
+
+[INFO] 16.10.2017 09:36:53 (ToAdminMenuCommand.java:execute:19)Redirect to admin start page. 
+
+[INFO] 16.10.2017 09:36:54 (StartPageCommand.java:execute:19)Redirect to start page (index.jsp) 
+
+[INFO] 16.10.2017 09:55:46 (LoginPageCommand.java:execute:21)Redirect to login page 
+
+[INFO] 16.10.2017 09:55:50 (LoginCommand.java:execute:24)Authentication checking. 
+
+[INFO] 16.10.2017 09:55:50 (LoginCommand.java:checkAccessLevel:36)Administrator login into system. 
+
+[INFO] 16.10.2017 09:55:52 (OpenRequestsCommand.java:execute:19)Get opened request from DB. Show them on page. 
+
+[INFO] 16.10.2017 09:55:55 (RoomExistenceCommand.java:execute:35)Checking for free rooms for current request. Request ¹7 
+
+[INFO] 16.10.2017 09:55:55 (RoomExistenceCommand.java:execute:53)Found free rooms for request ¹7 
+
+[INFO] 16.10.2017 09:55:58 (CheckSendCommand.java:execute:42)Check calculation 
+
+[INFO] 16.10.2017 09:56:04 (ToAdminMenuCommand.java:execute:19)Redirect to admin start page. 
+
+[INFO] 17.10.2017 02:27:42 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 02:27:42 (LoginPageCommand.java:execute:19)Redirect to login page 
+
+[INFO] 17.10.2017 02:28:47 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 02:28:47 (LoginPageCommand.java:execute:19)Redirect to login page 
+
+[INFO] 17.10.2017 02:28:51 (LoginCommand.java:execute:26)Authentication checking. 
+
+[INFO] 17.10.2017 02:28:51 (LoginCommand.java:checkAccessLevel:39)Administrator login into system. 
+
+[INFO] 17.10.2017 02:29:28 (ToAdminMenuCommand.java:execute:19)Redirect to admin start page. 
+
+[INFO] 17.10.2017 02:29:52 (LoginPageCommand.java:execute:19)Redirect to login page 
+
+[INFO] 17.10.2017 02:34:56 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 02:34:56 (LoginPageCommand.java:execute:19)Redirect to login page 
+
+[INFO] 17.10.2017 02:35:14 (LoginCommand.java:execute:26)Authentication checking. 
+
+[INFO] 17.10.2017 02:35:14 (LoginCommand.java:checkAccessLevel:39)Administrator login into system. 
+
+[INFO] 17.10.2017 02:35:15 (OpenRequestsCommand.java:execute:19)Get opened request from DB. Show them on page. 
+
+[INFO] 17.10.2017 02:35:33 (LoginCommand.java:execute:26)Authentication checking. 
+
+[INFO] 17.10.2017 02:35:33 (LoginCommand.java:checkAccessLevel:39)Administrator login into system. 
+
+[INFO] 17.10.2017 02:35:34 (OpenRequestsCommand.java:execute:19)Get opened request from DB. Show them on page. 
+
+[INFO] 17.10.2017 02:51:35 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 02:51:35 (LoginPageCommand.java:execute:19)Redirect to login page 
+
+[INFO] 17.10.2017 02:51:53 (LoginCommand.java:execute:26)Authentication checking. 
+
+[INFO] 17.10.2017 02:51:53 (LoginCommand.java:checkAccessLevel:39)Administrator login into system. 
+
+[INFO] 17.10.2017 02:55:26 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 02:55:26 (LoginPageCommand.java:execute:19)Redirect to login page 
+
+[INFO] 17.10.2017 02:55:57 (LoginCommand.java:execute:26)Authentication checking. 
+
+[INFO] 17.10.2017 02:55:57 (LoginCommand.java:checkAccessLevel:39)Administrator login into system. 
+
+[INFO] 17.10.2017 02:56:01 (LoginCommand.java:execute:26)Authentication checking. 
+
+[INFO] 17.10.2017 02:56:01 (LoginCommand.java:checkAccessLevel:39)Administrator login into system. 
+
+[INFO] 17.10.2017 02:57:40 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 02:57:40 (LoginPageCommand.java:execute:19)Redirect to login page 
+
+[INFO] 17.10.2017 02:57:44 (LoginCommand.java:execute:26)Authentication checking. 
+
+[INFO] 17.10.2017 02:57:44 (LoginCommand.java:checkAccessLevel:39)Administrator login into system. 
+
+[INFO] 17.10.2017 02:57:45 (OpenRequestsCommand.java:execute:19)Get opened request from DB. Show them on page. 
+
+[INFO] 17.10.2017 03:00:21 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 03:00:21 (LoginPageCommand.java:execute:19)Redirect to login page 
+
+[INFO] 17.10.2017 08:57:26 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 08:57:26 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[INFO] 17.10.2017 08:57:29 (LoginCommand.java:execute:32)Authentication checking. 
+
+[INFO] 17.10.2017 08:57:29 (LoginCommand.java:checkAccessLevel:52)Administrator login into system. 
+
+[INFO] 17.10.2017 09:11:49 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 09:11:49 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[ERROR] 17.10.2017 09:11:52 (LoginCommand.java:execute:36)Something goes wrong. 
+
+[INFO] 17.10.2017 09:11:55 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[INFO] 17.10.2017 09:11:58 (LoginCommand.java:execute:32)Authentication checking. 
+
+[INFO] 17.10.2017 09:11:58 (LoginCommand.java:checkAccessLevel:52)Administrator login into system. 
+
+[INFO] 17.10.2017 09:12:00 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[INFO] 17.10.2017 09:12:15 (LoginCommand.java:execute:32)Authentication checking. 
+
+[INFO] 17.10.2017 09:12:15 (LoginCommand.java:checkAccessLevel:52)Administrator login into system. 
+
+[INFO] 17.10.2017 09:12:16 (OpenRequestsCommand.java:execute:27)Get opened request from DB. Show them on page. 
+
+[INFO] 17.10.2017 09:17:06 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 09:17:09 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[INFO] 17.10.2017 09:17:14 (LoginCommand.java:execute:32)Authentication checking. 
+
+[INFO] 17.10.2017 09:17:14 (LoginCommand.java:checkAccessLevel:52)Administrator login into system. 
+
+[INFO] 17.10.2017 09:18:17 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 09:18:17 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[INFO] 17.10.2017 09:21:17 (AdminSecureFilter.java:doFilter:35)Try to get access for admin resources without authentication. Redirect to login page. 
+
+[INFO] 17.10.2017 09:21:21 (AdminSecureFilter.java:doFilter:35)Try to get access for admin resources without authentication. Redirect to login page. 
+
+[INFO] 17.10.2017 09:21:27 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 09:21:28 (LoginCommand.java:execute:32)Authentication checking. 
+
+[INFO] 17.10.2017 09:21:28 (LoginCommand.java:checkAccessLevel:52)Administrator login into system. 
+
+[INFO] 17.10.2017 09:27:31 (AdminSecureFilter.java:doFilter:37)Try to get access for admin resources without authentication. Redirect to login page. 
+
+[INFO] 17.10.2017 09:27:35 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 09:27:36 (LoginCommand.java:execute:32)Authentication checking. 
+
+[INFO] 17.10.2017 09:27:36 (LoginCommand.java:checkAccessLevel:52)Administrator login into system. 
+
+[INFO] 17.10.2017 09:27:37 (OpenRequestsCommand.java:execute:27)Get opened request from DB. Show them on page. 
+
+[INFO] 17.10.2017 09:31:37 (AdminSecureFilter.java:doFilter:37)Try to get access for admin resources without authentication. Redirect to login page. 
+
+[INFO] 17.10.2017 09:31:40 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 17.10.2017 09:31:41 (LoginCommand.java:execute:32)Authentication checking. 
+
+[INFO] 17.10.2017 09:31:41 (LoginCommand.java:checkAccessLevel:52)Administrator login into system. 
+
+[INFO] 17.10.2017 09:31:43 (OpenRequestsCommand.java:execute:27)Get opened request from DB. Show them on page. 
+
+[INFO] 17.10.2017 09:32:44 (RoomExistenceCommand.java:execute:44)Checking for free rooms for current request. Request ¹5 
+
+[INFO] 17.10.2017 09:32:44 (RoomExistenceCommand.java:execute:62)Found free rooms for request ¹5 
+

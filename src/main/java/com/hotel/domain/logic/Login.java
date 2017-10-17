@@ -11,6 +11,12 @@ import java.sql.SQLException;
 
 public class Login {
 
+    /**
+     * Get root from DB
+     * @param login
+     * @param password
+     * @return
+     */
     public static RootsEntity checkRoot(String login, String password) {
         AbstractDaoFactory daoFactory = new DaoFactory();
         RootsEntity root = null;

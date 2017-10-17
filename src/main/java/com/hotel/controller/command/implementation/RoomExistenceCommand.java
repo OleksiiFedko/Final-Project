@@ -26,6 +26,15 @@ public class RoomExistenceCommand extends AbstractCommand {
     /** The Constant LOG. */
     private static final Logger LOG = Logger.getLogger(LoginCommand.class);
 
+    /**
+     * Get all free rooms for current request.
+     * Redirect to page with free rooms table
+     * @param request
+     * @param response
+     * @return
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int requestId = Integer.parseInt(request.getParameter("requestId"));

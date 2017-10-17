@@ -12,7 +12,14 @@ public class MailSender {
     private static final String ADDRESS_FROM = "alex.fedko2504@gmail.com";
     private static final String PASSWORD = "phantomf14";
 
-    public void sendSSL (RequestEntity requestEntity, boolean isRoomExist) {
+    /**
+     * Sending email message
+     * @param requestEntity
+     * @param price
+     * @param roomNumber
+     * @param isRoomExist
+     */
+    public void sendSSL (RequestEntity requestEntity,int price ,int roomNumber,boolean isRoomExist) {
         Properties properties = new Properties();
         properties.put("mail.smtp.host", "smtp.gmail.com");
         properties.put("mail.smtp.socketFactory.port", "465");
@@ -29,7 +36,11 @@ public class MailSender {
         if(isRoomExist) {
             messageText = "Dear, " + requestEntity.getFirstName() + "!\n" +
                     "Thank you that choose our hotel.\n" +
-                    "We sent you check for your order in this mail.\n" +
+                    "You room is №" + roomNumber +"\n" +
+                    "Total price for room will be " + price +"$\n" +
+                    "You can make payment by bank details:\n" +
+                    "\n" +
+                    "421113290086514\n" +
                     "\n" +
                     "Best wishes, administration!";
         } else {

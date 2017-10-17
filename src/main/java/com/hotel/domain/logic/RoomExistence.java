@@ -17,6 +17,11 @@ import java.util.List;
 
 public class RoomExistence {
 
+    /**
+     * Check rooms for marked request by its condition.
+     * @param entity
+     * @return
+     */
     public static List<Integer> checkRoomExistence(RequestEntity entity) {
         List<OrderEntity> ordersList;
         List<Integer> existingRooms = new ArrayList<>();

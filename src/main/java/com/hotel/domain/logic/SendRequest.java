@@ -11,6 +11,11 @@ import java.sql.SQLException;
 
 public class SendRequest {
 
+    /**
+     * Add client request to DB
+     * @param requestEntity
+     * @return
+     */
     public static boolean sendRequest(RequestEntity requestEntity) {
         AbstractDaoFactory daoFactory = new DaoFactory();
         try(Connection connection = DBConnectionPool.getConnection()){

@@ -12,6 +12,15 @@ import java.io.IOException;
 public class ErrorCommand extends AbstractCommand {
     /** The Constant LOG. */
     private static final Logger LOG = Logger.getLogger(LoginCommand.class);
+
+    /**
+     * Redirect to error page
+     * @param request
+     * @param response
+     * @return
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         LOG.error("Something goes wrong. Redirect to error page.");

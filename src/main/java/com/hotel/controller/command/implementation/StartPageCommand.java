@@ -14,6 +14,14 @@ public class StartPageCommand extends AbstractCommand {
     /** The Constant LOG. */
     private static final Logger LOG = Logger.getLogger(LoginCommand.class);
 
+    /**
+     * Redirect to start page (index.jsp)
+     * @param request
+     * @param response
+     * @return
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         LOG.info("Redirect to start page (index.jsp)");

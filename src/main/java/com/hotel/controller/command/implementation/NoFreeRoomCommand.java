@@ -22,6 +22,15 @@ public class NoFreeRoomCommand extends AbstractCommand {
     /** The Constant LOG. */
     private static final Logger LOG = Logger.getLogger(LoginCommand.class);
 
+    /**
+     * Generate message that there are no free rooms
+     * and send it to client by email.
+     * @param request
+     * @param response
+     * @return
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         boolean isFreeRoom = Boolean.parseBoolean(request.getParameter("isSuccess"));
@@ -31,7 +40,7 @@ public class NoFreeRoomCommand extends AbstractCommand {
             RequestDao requestDao = daoFactory.getRequestDao(connection);
             RequestEntity requestEntity = requestDao.getByKey(requestId);
             MailSender mailSender = new MailSender();
-            mailSender.sendSSL(requestEntity, false);
+            mailSender.sendSSL(requestEntity,0 ,0,false);
             LOG.info("Send message with negative response for client room request.");
         } catch (SQLException sqlE) {
             LOG.info("Something goes wrong during message sending.");

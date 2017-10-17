@@ -14,10 +14,16 @@ public class LoginPageCommand extends AbstractCommand {
     /** The Constant LOG. */
     private static final Logger LOG = Logger.getLogger(LoginCommand.class);
 
+    /**
+     * Redirect to login page
+     * @param request
+     * @param response
+     * @return
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//        HttpSession session = request.getSession(true);
-//        String language = (String) request.getParameter("language");
         LOG.info("Redirect to login page");
         return ViewManager.LOGIN_PAGE_PASS;
     }
