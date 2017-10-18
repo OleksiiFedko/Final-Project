@@ -24,7 +24,7 @@ import java.util.List;
 public class RoomExistenceCommand extends AbstractCommand {
 
     /** The Constant LOG. */
-    private static final Logger LOG = Logger.getLogger(LoginCommand.class);
+    private static final Logger LOG = Logger.getLogger(RoomExistenceCommand.class);
 
     /**
      * Get all free rooms for current request.

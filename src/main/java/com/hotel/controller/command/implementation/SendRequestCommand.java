@@ -18,7 +18,7 @@ import java.text.SimpleDateFormat;
 public class SendRequestCommand extends AbstractCommand {
 
     /** The Constant LOG. */
-    private static final Logger LOG = Logger.getLogger(LoginCommand.class);
+    private static final Logger LOG = Logger.getLogger(SendRequestCommand.class);
 
     /**
      * Creating new request and add send it to DB

@@ -13,7 +13,7 @@ import java.io.IOException;
 public class LogoutCommand extends AbstractCommand {
 
     /** The Constant LOG. */
-    private static final Logger LOG = Logger.getLogger(LoginCommand.class);
+    private static final Logger LOG = Logger.getLogger(LogoutCommand.class);
 
     /**
      * Logout from system.

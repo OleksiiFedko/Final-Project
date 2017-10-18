@@ -42,8 +42,8 @@ public class OpenRequestsTag extends TagSupport {
                 out.write("<td>" + entity.getRoomClass() + "</td>");
                 out.write("<td>" + entity.getPassport() + "</td>");
                 out.write("<td>" + entity.getEmail() + "</td>");
-                out.write("<input type=\"hidden\" name=\"requestId\" value=\"${request.requestId}\"/>");
-                out.write("<input type=\"hidden\" name=\"command\" value=\"checkRoomExistence\">");
+                out.write("<input type=\"hidden\" name=\"requestId\" value=\"" + entity.getRequestId() + "\"/>");
+                out.write("<input type=\"hidden\" name=\"command\" value=\"checkRoomExistence\"/>");
                 out.write("<td>  <button type=\"submit\">Check for existing</button></td>");
                 out.write("</form>");
                 out.write("</tr>");

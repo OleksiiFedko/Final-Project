@@ -13,7 +13,7 @@ import java.io.IOException;
 public class RequestCommand extends AbstractCommand {
 
     /** The Constant LOG. */
-    private static final Logger LOG = Logger.getLogger(LoginCommand.class);
+    private static final Logger LOG = Logger.getLogger(RequestCommand.class);
 
     /**
      * Redirect client to page for request creating.

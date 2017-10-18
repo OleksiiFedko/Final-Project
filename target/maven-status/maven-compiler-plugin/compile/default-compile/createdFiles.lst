@@ -1,4 +1,3 @@
-com\hotel\domain\beans\OpenRequestBean.class
 com\hotel\model\entities\RoomClassEntity.class
 com\hotel\controller\utils\ViewManager.class
 com\hotel\model\tags\RoomsClassTag.class
@@ -16,12 +15,12 @@ com\hotel\model\dao\impldao\RequestDao.class
 com\hotel\controller\command\implementation\StartPageCommand.class
 com\hotel\model\dao\factorydao\DaoFactory.class
 com\hotel\model\dao\factorydao\AbstractDaoFactory.class
+com\hotel\controller\command\implementation\LanguageCommand.class
 com\hotel\domain\logic\MailSender.class
 com\hotel\model\dao\impldao\CheckDao.class
 com\hotel\controller\command\implementation\CheckSendCommand.class
 com\hotel\controller\command\implementation\ToAdminMenuCommand.class
 com\hotel\controller\filters\AdminSecureFilter.class
-com\hotel\domain\beans\RoomClassBean.class
 com\hotel\model\dao\impldao\GenericDao.class
 com\hotel\model\entities\RoomsEntity.class
 com\hotel\controller\servlets\Controller.class

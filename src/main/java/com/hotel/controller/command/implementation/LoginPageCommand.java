@@ -12,7 +12,7 @@ import java.io.IOException;
 public class LoginPageCommand extends AbstractCommand {
 
     /** The Constant LOG. */
-    private static final Logger LOG = Logger.getLogger(LoginCommand.class);
+    private static final Logger LOG = Logger.getLogger(LoginPageCommand.class);
 
     /**
      * Redirect to login page

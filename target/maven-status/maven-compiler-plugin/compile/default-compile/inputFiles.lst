@@ -4,7 +4,6 @@ C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\tags\
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\controller\command\AbstractCommand.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\domain\logic\Login.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\controller\utils\ViewManager.java
-C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\domain\beans\OpenRequestBean.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\entities\RequestEntity.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\entities\CheckEntity.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\dao\impldao\RootsDao.java
@@ -41,4 +40,4 @@ C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\entit
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\controller\command\implementation\StartPageCommand.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\dao\connection\DBConnectionPool.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\controller\command\CommandFactory.java
-C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\domain\beans\RoomClassBean.java
+C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\controller\command\implementation\LanguageCommand.java

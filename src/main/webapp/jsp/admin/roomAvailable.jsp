@@ -10,7 +10,7 @@
     <style type="text/css">
         #toStart{
             width: 10%;
-            position: fixed;
+            /*position: fixed;*/
             bottom: 0;
             right: 0;
         }

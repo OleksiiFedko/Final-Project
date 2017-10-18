@@ -19,7 +19,7 @@ import java.util.ArrayList;
 public class Controller extends HttpServlet {
 
     /** The Constant LOG. */
-    private static final Logger LOG = Logger.getLogger(LoginCommand.class);
+    private static final Logger LOG = Logger.getLogger(Controller.class);
 
     public Controller() {
         super();

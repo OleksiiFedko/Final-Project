@@ -12,7 +12,7 @@ import java.io.IOException;
 public class ToAdminMenuCommand extends AbstractCommand {
 
     /** The Constant LOG. */
-    private static final Logger LOG = Logger.getLogger(LoginCommand.class);
+    private static final Logger LOG = Logger.getLogger(ToAdminMenuCommand.class);
 
     /**
      * Redirect to admin basic page.

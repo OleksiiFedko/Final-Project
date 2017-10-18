@@ -12,7 +12,7 @@ import java.io.IOException;
 public class StartPageCommand extends AbstractCommand {
 
     /** The Constant LOG. */
-    private static final Logger LOG = Logger.getLogger(LoginCommand.class);
+    private static final Logger LOG = Logger.getLogger(StartPageCommand.class);
 
     /**
      * Redirect to start page (index.jsp)

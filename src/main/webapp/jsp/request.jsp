@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" language="java"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ taglib uri="/WEB-INF/tdl/RoomClassBoxTag" prefix="rcb"%>
+<%@ taglib uri="/WEB-INF/tdl/hotel" prefix="hl"%>
 
 <%--<jsp:useBean id="roomClass" class="com.hotel.domain.beans.RoomClassBean" scope="session"/>--%>
 
@@ -47,7 +47,7 @@
             </tr>
             <tr>
                 <td>Room class</td>
-                <rcb:ShowRoomClass/>
+                <hl:ShowRoomClass/>
             <%--<td>--%>
             <%--<select name="roomClass">--%>
             <%--<option disabled>Choose room class</option>--%>

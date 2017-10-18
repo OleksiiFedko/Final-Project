@@ -12,7 +12,7 @@ import java.io.IOException;
 public class OpenRequestsCommand extends AbstractCommand {
 
     /** The Constant LOG. */
-    private static final Logger LOG = Logger.getLogger(LoginCommand.class);
+    private static final Logger LOG = Logger.getLogger(OpenRequestsCommand.class);
 
     /**
      * Redirect administrator to page with request, requests status = open

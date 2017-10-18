@@ -20,7 +20,7 @@ import java.sql.SQLException;
 public class NoFreeRoomCommand extends AbstractCommand {
 
     /** The Constant LOG. */
-    private static final Logger LOG = Logger.getLogger(LoginCommand.class);
+    private static final Logger LOG = Logger.getLogger(NoFreeRoomCommand.class);
 
     /**
      * Generate message that there are no free rooms

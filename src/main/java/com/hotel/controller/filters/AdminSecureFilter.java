@@ -11,7 +11,7 @@ import java.io.IOException;
 
 public class AdminSecureFilter implements javax.servlet.Filter {
 
-    private static final Logger LOG = Logger.getLogger(LoginCommand.class);
+    private static final Logger LOG = Logger.getLogger(AdminSecureFilter.class);
 
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {

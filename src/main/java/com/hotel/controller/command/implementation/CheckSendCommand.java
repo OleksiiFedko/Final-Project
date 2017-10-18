@@ -28,7 +28,7 @@ import java.util.concurrent.TimeUnit;
 public class CheckSendCommand extends AbstractCommand {
 
     /** The Constant LOG. */
-    private static final Logger LOG = Logger.getLogger(LoginCommand.class);
+    private static final Logger LOG = Logger.getLogger(CheckSendCommand.class);
 
     /**
      * Generating message with check and send it to client

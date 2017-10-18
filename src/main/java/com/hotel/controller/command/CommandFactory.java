@@ -38,6 +38,8 @@ public class CommandFactory {
                     return new NoFreeRoomCommand();
                 case "logout":
                     return new LogoutCommand();
+                case "language":
+                    return new LanguageCommand();
                 default:
                     return null;
             }

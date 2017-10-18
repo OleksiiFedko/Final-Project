@@ -29,7 +29,6 @@
     </form>
     <form action="/controller" method="post">
         <input type="hidden" name="command" value="start">
-        <%--<input id="toStart" type="submit" value="To start page"/>--%>
         <button id="toStart" type="submit">To start page</button>
     </form>
 </body>

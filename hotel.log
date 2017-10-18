@@ -394,3 +394,135 @@
 
 [INFO] 18.10.2017 01:09:14 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
 
+[INFO] 18.10.2017 01:15:07 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 18.10.2017 01:15:07 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 18.10.2017 01:15:12 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[INFO] 18.10.2017 01:15:16 (LoginCommand.java:execute:32)Authentication checking. 
+
+[INFO] 18.10.2017 01:15:16 (LoginCommand.java:checkAccessLevel:52)Administrator login into system. 
+
+[INFO] 18.10.2017 01:15:17 (OpenRequestsCommand.java:execute:27)Get opened request from DB. Show them on page. 
+
+[INFO] 18.10.2017 01:15:49 (OpenRequestsCommand.java:execute:27)Get opened request from DB. Show them on page. 
+
+[INFO] 18.10.2017 01:17:30 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 18.10.2017 01:17:30 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[INFO] 18.10.2017 01:17:34 (LoginCommand.java:execute:32)Authentication checking. 
+
+[INFO] 18.10.2017 01:17:34 (LoginCommand.java:checkAccessLevel:52)Administrator login into system. 
+
+[INFO] 18.10.2017 01:17:36 (OpenRequestsCommand.java:execute:27)Get opened request from DB. Show them on page. 
+
+[INFO] 18.10.2017 01:17:40 (OpenRequestsCommand.java:execute:27)Get opened request from DB. Show them on page. 
+
+[INFO] 18.10.2017 01:17:46 (OpenRequestsCommand.java:execute:27)Get opened request from DB. Show them on page. 
+
+[INFO] 18.10.2017 01:22:31 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 18.10.2017 01:22:31 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[INFO] 18.10.2017 01:22:34 (LoginCommand.java:execute:32)Authentication checking. 
+
+[INFO] 18.10.2017 01:22:34 (LoginCommand.java:checkAccessLevel:52)Administrator login into system. 
+
+[INFO] 18.10.2017 01:22:36 (OpenRequestsCommand.java:execute:27)Get opened request from DB. Show them on page. 
+
+[INFO] 18.10.2017 01:22:58 (RoomExistenceCommand.java:execute:44)Checking for free rooms for current request. Request ¹3 
+
+[INFO] 18.10.2017 01:22:58 (RoomExistenceCommand.java:execute:62)Found free rooms for request ¹3 
+
+[INFO] 18.10.2017 02:42:06 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 18.10.2017 02:42:06 (LanguageCommand.java:execute:21)Add to session language parameter. 
+
+[INFO] 18.10.2017 02:42:08 (LanguageCommand.java:execute:21)Add to session language parameter. 
+
+[INFO] 18.10.2017 02:42:09 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[INFO] 18.10.2017 02:42:13 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 18.10.2017 02:42:17 (LanguageCommand.java:execute:21)Add to session language parameter. 
+
+[INFO] 18.10.2017 02:42:18 (LanguageCommand.java:execute:21)Add to session language parameter. 
+
+[INFO] 18.10.2017 02:42:20 (LanguageCommand.java:execute:21)Add to session language parameter. 
+
+[INFO] 18.10.2017 02:42:21 (LanguageCommand.java:execute:21)Add to session language parameter. 
+
+[INFO] 18.10.2017 03:47:31 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 18.10.2017 03:47:31 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[INFO] 18.10.2017 03:47:38 (LoginCommand.java:execute:32)Authentication checking. 
+
+[INFO] 18.10.2017 03:47:38 (LoginCommand.java:checkAccessLevel:52)Administrator login into system. 
+
+[INFO] 18.10.2017 03:47:45 (RequestCommand.java:execute:28)Redirect to page for new request creating. 
+
+[INFO] 18.10.2017 04:10:48 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 18.10.2017 04:13:40 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 18.10.2017 04:15:55 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 18.10.2017 04:15:55 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[INFO] 18.10.2017 04:17:34 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 18.10.2017 04:17:41 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[INFO] 18.10.2017 04:17:45 (StartPageCommand.java:execute:27)Redirect to start page (index.jsp) 
+
+[INFO] 18.10.2017 04:26:01 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 18.10.2017 04:26:01 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[INFO] 18.10.2017 04:27:17 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 18.10.2017 04:27:17 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[ERROR] 18.10.2017 04:27:20 (LoginCommand.java:execute:36)Something goes wrong. 
+
+[INFO] 18.10.2017 04:27:21 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[INFO] 18.10.2017 04:27:23 (StartPageCommand.java:execute:27)Redirect to start page (index.jsp) 
+
+[INFO] 18.10.2017 04:27:27 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[INFO] 18.10.2017 04:27:31 (StartPageCommand.java:execute:27)Redirect to start page (index.jsp) 
+
+[INFO] 18.10.2017 04:27:35 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[INFO] 18.10.2017 04:28:10 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 18.10.2017 04:28:10 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[INFO] 18.10.2017 04:28:12 (StartPageCommand.java:execute:27)Redirect to start page (index.jsp) 
+
+[INFO] 18.10.2017 04:28:16 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[INFO] 18.10.2017 04:28:18 (StartPageCommand.java:execute:27)Redirect to start page (index.jsp) 
+
+[INFO] 18.10.2017 04:29:18 (Controller.java:<init>:26)Create controller object. 
+
+[INFO] 18.10.2017 04:29:18 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[ERROR] 18.10.2017 04:29:29 (LoginCommand.java:execute:36)Something goes wrong. 
+
+[INFO] 18.10.2017 04:29:31 (LoginPageCommand.java:execute:27)Redirect to login page 
+
+[INFO] 18.10.2017 04:29:33 (LoginCommand.java:execute:32)Authentication checking. 
+
+[INFO] 18.10.2017 04:29:33 (LoginCommand.java:checkAccessLevel:52)Administrator login into system. 
+
+[INFO] 18.10.2017 04:29:35 (OpenRequestsCommand.java:execute:27)Get opened request from DB. Show them on page. 
+
+[INFO] 18.10.2017 04:29:45 (RoomExistenceCommand.java:execute:44)Checking for free rooms for current request. Request ¹7 
+
+[INFO] 18.10.2017 04:29:45 (RoomExistenceCommand.java:execute:62)Found free rooms for request ¹7 
+

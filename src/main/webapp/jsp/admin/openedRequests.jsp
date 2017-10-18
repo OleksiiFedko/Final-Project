@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ taglib prefix="sor" uri="/WEB-INF/tdl/ShowOpenRequestsTag" %>
+<%@ taglib uri="/WEB-INF/tdl/hotel" prefix="hl"%>
 
 <%--<jsp:useBean id="openRequest" class="com.hotel.domain.beans.OpenRequestBean"/>--%>
 
@@ -21,7 +21,11 @@
         }
     </style>
 </head>
-<body bgcolor="#90ee90">
+    <body bgcolor="#90ee90">
+        <form action="/controller" method="get">
+            <input type="hidden" name="command" value="logout"/>
+            <button id="toStart" type="submit">LogOut</button>
+        </form>
         <table>
             <thead>
             <tr>
@@ -36,7 +40,7 @@
             </tr>
             </thead>
             <tbody>
-            <sor:ShowOpenRequestsTag/>
+            <hl:ShowOpenRequestsTag/>
                 <%--<c:forEach items="${openRequest.openedRequests}" var="request">--%>
                 <%--<tr>--%>
                     <%--<form action="/controller" method="post">--%>
@@ -60,9 +64,5 @@
                 <input type="hidden" name="command" value="adminMenu">
                 <input id="toMenu" type="submit" value="To admin start page"/>
         </form>
-        <form action="/controller" method="get">
-            <input type="hidden" name="command" value="logout"/>
-            <button id="toStart" type="submit">LogOut</button>
-        </form>
-</body>
+    </body>
 </html>
