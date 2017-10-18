@@ -13,13 +13,17 @@
         }
     </style>
 </head>
-<body bgcolor="#90ee90">
+<body >
     <h2 align="center">Administrator menu.</h2>
-    <form action="/controller" method="post">
+    <form action="/controller" method="get">
         <input type="hidden" name="command" value="getOpenRequests"/>
         <p>
         1. <button type="submit">Check open requests</button>
         </p>
+    </form>
+    <form action="/controller" method="get">
+        <input type="hidden" name="command" value="orderedRooms">
+        2. <button type="submit">Show ordered rooms</button>
     </form>
     <form action="/controller" method="get">
         <input type="hidden" name="command" value="logout"/>

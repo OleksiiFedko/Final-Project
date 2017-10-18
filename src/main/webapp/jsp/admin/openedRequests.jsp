@@ -1,11 +1,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="/WEB-INF/tdl/hotel" prefix="hl"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 
-<%--<jsp:useBean id="openRequest" class="com.hotel.domain.beans.OpenRequestBean"/>--%>
+<fmt:requestEncoding value="utf-8"/>
 
 <html>
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Opened Requests</title>
     <style type="text/css">
         #toMenu{
@@ -21,8 +23,8 @@
         }
     </style>
 </head>
-    <body bgcolor="#90ee90">
-        <form action="/controller" method="get">
+    <body>
+        <form action="/controller" method="post">
             <input type="hidden" name="command" value="logout"/>
             <button id="toStart" type="submit">LogOut</button>
         </form>

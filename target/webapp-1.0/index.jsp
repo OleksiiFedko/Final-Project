@@ -28,7 +28,7 @@
         }
     </style>
 </head>
-<body bgcolor="#696969">
+<body>
     <h2 align="center"><fmt:message key="index.welcomeHead" bundle="${locale}" /></h2>
     <hr/>
     <br/>
@@ -36,27 +36,27 @@
     <p><fmt:message key="index.welcomeBody" bundle="${locale}"/></p>
     <hr/>
     <br/>
-    <form action="/controller" method="post">
+    <form action="/controller" method="get">
         <input type="hidden" name="command" value="request"/>
         <button type="submit">
             <fmt:message key="index.torequest" bundle="${locale}"/>
         </button>
     </form>
-    <form action="/controller" method="post">
+    <form action="/controller" method="get">
         <input type="hidden" name="command" value="language"/>
         <input type="hidden" name="lang" value="ru_RU"/>
         <button type="submit" id="rus">
             <fmt:message key="index.russian" bundle="${locale}" />
         </button>
     </form>
-    <form action="/controller" method="post">
+    <form action="/controller" method="get">
         <input type="hidden" name="command" value="language"/>
         <input type="hidden" name="lang" value="en_EN"/>
         <button type="submit" id="eng">
             <fmt:message key="index.english" bundle="${locale}"/>
         </button>
     </form>
-    <form action="/controller" method="post">
+    <form action="/controller" method="get">
         <input type="hidden" name="command" value="toLogin"/>
         <button type="submit" id="toLogin">
             <fmt:message key="index.toadmin" bundle="${locale}"/>

@@ -3,7 +3,7 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee">
     <tlib-version>1.0</tlib-version>
-    <short-name>rcb</short-name>
+    <short-name>hl</short-name>
     <uri>/WEB-INF/tdl/hotel</uri>
 
     <tag>
@@ -15,6 +15,12 @@
     <tag>
         <name>ShowOpenRequestsTag</name>
         <tag-class>com.hotel.model.tags.OpenRequestsTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+
+    <tag>
+        <name>ShowOrderedRoomsTag</name>
+        <tag-class>com.hotel.model.tags.OrderedRoomsTag</tag-class>
         <body-content>empty</body-content>
     </tag>
 </taglib>

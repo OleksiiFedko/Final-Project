@@ -28,14 +28,14 @@ public class RoomsClassTag extends TagSupport {
 
 //            out.write("<tr>");
 //            out.write("<td>Room class</td>");
-            out.write("<td>");
+//            out.write("<td>");
             out.write("<select name=\"roomClass\">");
             out.write("<option disabled>Choose room class</option>");
             for(RoomClassEntity entity : roomClassList) {
                 out.write("<option>" + entity.getRoomClass() + "</option>");
             }
             out.write("</select>");
-            out.write("</td>");
+//            out.write("</td>");
 //            out.write("</tr>");
 
             out.flush();

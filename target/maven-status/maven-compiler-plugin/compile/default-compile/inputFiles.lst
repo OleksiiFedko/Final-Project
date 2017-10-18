@@ -1,4 +1,5 @@
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\dao\impldao\RequestDao.java
+C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\tags\OrderedRoomsTag.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\controller\command\implementation\RequestCommand.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\tags\OpenRequestsTag.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\controller\command\AbstractCommand.java
@@ -21,6 +22,7 @@ C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\dao\i
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\controller\command\implementation\SendRequestCommand.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\domain\logic\SendRequest.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\dao\factorydao\DaoFactory.java
+C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\controller\command\implementation\OrderedRooms.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\entities\RoomClassEntity.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\domain\logic\RequestValidation.java
 C:\Users\asus\IdeaProjects\EPAM Hotel System\src\main\java\com\hotel\model\dao\impldao\RoomsDao.java

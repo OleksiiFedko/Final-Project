@@ -40,6 +40,8 @@ public class CommandFactory {
                     return new LogoutCommand();
                 case "language":
                     return new LanguageCommand();
+                case "orderedRooms":
+                    return new OrderedRooms();
                 default:
                     return null;
             }

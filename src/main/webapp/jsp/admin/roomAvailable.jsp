@@ -16,7 +16,7 @@
         }
     </style>
 </head>
-<body bgcolor="#90ee90">
+<body>
     <h3>Free rooms</h3>
     <table>
         <thead>
@@ -30,7 +30,7 @@
             <%List<RoomsEntity> freeRooms = (List<RoomsEntity>) request.getAttribute("freeRooms");%>
             <%for(RoomsEntity room : freeRooms) {%>
             <tr>
-                <form action="/controller">
+                <form action="/controller" method="post">
                     <td>  <%= room.getRoomNumber()%></td>
                     <td>  <%= room.getRoomClass().getRoomClass()%></td>
                     <td>  <%= room.getRoomClass().getPriceForDay()%></td>

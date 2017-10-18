@@ -61,6 +61,7 @@ public class SendRequestCommand extends AbstractCommand {
         requestEntity.setPassport(request.getParameter("passport"));
         requestEntity.setEmail(request.getParameter("email"));
         requestEntity.setOpen(true);
+        System.out.println(requestEntity);
         if(RequestValidation.isEmptyField(requestEntity)) {
             LOG.error("One ore more empty field in request.");
             request.setAttribute("errorMessage", "One ore more empty field in request.\n" +
